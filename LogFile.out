@@ -1,0 +1,8 @@
+2021-11-30 02:11:587 INFO  TestLogs:37 - ************Starting TestCase-1 ************
+2021-11-30 02:11:604 INFO  TestLogs:47 - Defining all the Page class object.
+2021-11-30 02:11:703 INFO  TestLogs:55 - Selecting city from HomePage
+2021-11-30 02:11:616 INFO  TestLogs:60 - Selecting Flight from ReservePage
+2021-11-30 02:11:180 INFO  TestLogs:64 - Filling information in PurchasePage from Property file
+2021-11-30 02:11:62 INFO  TestLogs:77 - Fetching confirmationID from ConfirmationPage
+2021-11-30 02:11:144 INFO  TestLogs:80 - ConfirmationID : 1638217973532
+2021-11-30 02:11:148 INFO  TestLogs:86 - ************ Completed TestCase-1 ************

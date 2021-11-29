@@ -1,0 +1,13 @@
+pageClasses\ConfirmationPage.class
+managers\WebDriverManager$1.class
+enums\EnvironmentType.class
+dataProvider\ConfigurationFileReader.class
+managers\FileReaderManager.class
+utility\TestLogs.class
+pageClasses\ReservePage.class
+managers\WebDriverManager.class
+enums\DriverType.class
+managers\PageObjectManager.class
+pageClasses\HomePage.class
+pageClasses\PurchasePage.class
+utility\TestDataFileReader.class
