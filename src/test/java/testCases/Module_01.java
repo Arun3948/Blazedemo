@@ -26,14 +26,18 @@ public class Module_01 {
 	public static final Logger logger = Logger.getLogger(TestLogs.class.getName());
 
 	public Module_01() {
-		System.out.println("TC_01");
-		obj_WDM = new WebDriverManager();
-		driver = obj_WDM.getDriver();
-		obj_POM = new PageObjectManager(driver);
+//		System.out.println("TC_01");
+//		obj_WDM = new WebDriverManager();
+//		driver = obj_WDM.getDriver();
+//		obj_POM = new PageObjectManager(driver);
 	}
 	
 	@BeforeMethod
 	public void preSetup() {
+		System.out.println("TC_01");
+		obj_WDM = new WebDriverManager();
+		driver = obj_WDM.getDriver();
+		obj_POM = new PageObjectManager(driver);
 		logger.info("************Starting TestCase-1 ************");
 	}
 
