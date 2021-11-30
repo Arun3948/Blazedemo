@@ -1,7 +1,7 @@
 # This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 
-name: Java CI with Maven22
+name: BlazedemoWF_01
 
 on:
   workflow_dispatch:
@@ -9,9 +9,9 @@ on:
     inputs:
       name:
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Manual22'
+        description: 'Assignment Project'
         # Default value if no value is explicitly provided
-        default: 'Manual22'
+        default: 'Assignment'
         # Input has to be provided for the workflow to run
         required: false
 
@@ -28,5 +28,5 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: maven
-    - name: Build with Maven22
+    - name: Blazedemo Run
       run: mvn -B package --file pom.xml
